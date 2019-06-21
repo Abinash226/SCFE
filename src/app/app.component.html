@@ -5,8 +5,14 @@
       <mat-icon>more_vert</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item routerLink="/employee">List Employee</button>
-      <button mat-menu-item routerLink="/add">Add Employee</button>
+      <button mat-menu-item routerLink="/employee">
+        <mat-icon>list</mat-icon>
+        <span>List Employee</span>
+      </button>
+      <button mat-menu-item routerLink="/add">
+        <mat-icon>playlist_add</mat-icon>
+        <span>Add Employee</span>
+      </button>
     </mat-menu>
   </mat-toolbar>
     <router-outlet></router-outlet>
