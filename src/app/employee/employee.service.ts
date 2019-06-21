@@ -13,7 +13,7 @@ const httpOptions = {
 export class EmployeeService {
 
   constructor(private http:HttpClient) { }
-  private userUrl = '/employee';
+  private userUrl = 'https://emp-portal.herokuapp.com/employee-portal/employee';
 
   public getEmployee() {
     return this.http.get<Employee[]>(this.userUrl);
