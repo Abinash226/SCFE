@@ -1,6 +1,6 @@
 {
     "/employee/*": {
-      "target": "http://localhost:9090/employee-portal/",
+      "target": "https://emp-portal.herokuapp.com/employee-portal/",
       "secure": true
     }
   }
