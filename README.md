@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+clone the code.
+npm start to run the code.
 # EmpApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
